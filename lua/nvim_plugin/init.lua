@@ -1,3 +1,8 @@
 local api, fn = vim.api, vim.fn
+local M = {}
 
-api.nvim_out_write("Hey therE")
+function M.setup()
+    api.nvim_out_write("Hey therE")
+end
+
+return M
